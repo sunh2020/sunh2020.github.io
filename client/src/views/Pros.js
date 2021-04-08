@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Link, navigate } from "@reach/router";
 import Loading from "../components/Loading";
 import ReactPlayer from 'react-player';
-import Time from "../components/Time";
+import {date, time} from "../components/Time";
 
 const Pros = (props) => {
 
@@ -37,7 +37,13 @@ const [ pro, setPro ] = useState(null);
         })
         .catch((err) => {
             console.log(err);
-         });
+         })
+        .finally(() => {
+            setPro({})
+            setInterval(date, 1000);
+            setInterval(time, 1000);
+        }); 
+
 
       }, []);
 

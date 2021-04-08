@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 
-function date() {
+export function date() {
     const element = (
         <span>{new Date().toLocaleDateString()}</span>
       
@@ -10,12 +10,12 @@ function date() {
     ReactDOM.render(element, document.getElementById('date'));
   }
   
-  function time() {
+export function time() {
     const element = (
         <span>{new Date().toLocaleTimeString()}</span>
     );
     ReactDOM.render(element, document.getElementById('time'));
   }
   
-  setInterval(date, 1000);
-  setInterval(time, 1000);
+  // setInterval(date, 1000);
+  // setInterval(time, 1000);

@@ -17,7 +17,7 @@ function App() {
         <Router>
           {/* <Redirect from="/" to="/" noThrow="true" /> */}
         
-          {/* <Pros path="/" /> */}
+          <Pros path="/" />
           {/* <NewPro path="/pros/new" />
           <EditPro path="pros/:id/edit" />
           <Faker path="/pros/:id" />
