@@ -1,0 +1,102 @@
+.wrapper {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.mt-md {
+  margin-top: 2rem;
+}
+
+.main {
+ 
+  height: 100%;
+  background-image: url("https://media.giphy.com/media/YmzO3P2e4qYkitoVcF/giphy.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .pet-container {
+  width: 50%;
+  padding: 30px;
+  border: 1px solid gray;
+  margin: 0 auto;
+} */
+
+table {
+  width: 50%;
+  padding: 50px;
+  border: 1px solid gray;
+  margin: 0 auto;
+  
+}
+
+.text-center {  
+  text-align: center;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;  
+}
+
+h4 {
+  text-align: center;
+  font-style: italic;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  color: white;
+  background-color: rgb(153, 175, 246)
+}
+
+a {
+  font-size: large;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+h2 {
+  color: rgb(141, 5, 182);
+}
+
+a {
+  color: rgb(247, 250, 253);
+  font-weight: 600;
+  
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.profile:hover {
+  background-color: pink;
+}
+
+.date-top {
+ color:rgb(43, 236, 153);
+ font-weight: 600;
+}
+
+.time-top {
+ color:rgb(236, 173, 90);
+ font-weight: 600;
+}
+
+#date {
+ color: beige;
+}
+
+#time {
+ color: rgb(233, 233, 150);
+}
