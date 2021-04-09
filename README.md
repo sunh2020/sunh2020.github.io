@@ -2,6 +2,8 @@
 
 My personal blog site
 
-npm install
+if you are at localhost:3000 follow this steps:
 
-npm start
+1) npm install
+
+2) npm start
