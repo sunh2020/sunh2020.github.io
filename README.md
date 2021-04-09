@@ -4,7 +4,7 @@ My personal blog site
 
 Deployment:
 
-npm build deploy
+npm run deploy
 
 
 
