@@ -2,7 +2,7 @@
 
 My personal blog site
 
-if you are at localhost:3000 follow this steps:
+if you are at http://localhost:3000 follow this steps:
 
 1) npm install
 
