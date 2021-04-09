@@ -1,6 +1,6 @@
 # sunh2020.github.io
 
-My personal blog site
+My personal project site
 
 Deployment:
 
