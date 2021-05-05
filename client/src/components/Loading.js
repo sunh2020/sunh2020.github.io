@@ -5,7 +5,7 @@ const Loading = (props) => {
     <div>
       <h2>Loading...</h2>
       <img
-        src="https://tenor.com/view/loading-fast-gif-14829442"
+        src="https://media.giphy.com/media/l0JMgio0LaBwQpBvO/giphy.gif"
         alt="Loading"
       />
     </div>
