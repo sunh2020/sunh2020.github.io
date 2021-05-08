@@ -1,5 +1,5 @@
 import React from 'react';
-import { Redirect, Router } from '@reach/router';
+import { Redirect, Router, Link } from '@reach/router';
 import './App.css';
 
 import Pros from './views/Pros';
@@ -14,7 +14,7 @@ function App() {
 
 <div className="wrapper">
       <nav className="mt-md">
-      <nav><a href="/">Home</a> | <a href="/about">About</a> | <a href="/projects">Projects</a> | <a href="/blog">Blog</a>
+      <Link to="/">Home</Link> | <Link to="/about">About</Link> | <Link to="/projects">Projects</Link> | <Link to="/blog">Blog</Link>
       
         <Router>
           {/* <Redirect from="/" to="/" noThrow="true" /> */}
@@ -27,7 +27,7 @@ function App() {
     
       </Router>
       </nav>
-      </nav> 
+      
       <span className="footer">
         © 2021  Sunjuyuhwa Henderson
       </span>                                  

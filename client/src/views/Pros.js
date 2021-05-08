@@ -10,7 +10,9 @@ const Pros = (props) => {
 const [ pro, setPro ] = useState(null);
   
 
-    useEffect(() => {
+useEffect(() => {
+        var dateCounter;
+        var timeCounter;
         axios.get('http://localhost:8000/')
         .then((res) => {
                 console.log("Pro get response", res.data);
@@ -21,10 +23,13 @@ const [ pro, setPro ] = useState(null);
          })
         .finally(() => {
             setPro({})
-            setInterval(date, 1000);
-            setInterval(time, 1000);
+            dateCounter = setInterval(date, 1000);
+            timeCounter = setInterval(time, 1000);
          });
-
+        return () => {
+           clearInterval(dateCounter);
+           clearInterval(timeCounter);
+        } 
 
       }, []);
 
@@ -121,7 +126,7 @@ const [ pro, setPro ] = useState(null);
         <div class="date-top">Current date:</div>
         <div id="date"></div>
 
-        <div class="time-top">Current time (PST):</div>
+        <div class="time-top">Current time:</div>
         <div id="time"></div>
         </p>
         </div>
