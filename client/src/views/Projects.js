@@ -4,11 +4,14 @@ import { Link, navigate } from '@reach/router';
 import Loading from "../components/Loading";
 import ReactPlayer from 'react-player';
 
+
+
 const Projects = (props) => {
 
     const [ projects, setProjects ] = useState(null);
 
 
+   
     useEffect(() => {
         axios.get('http://localhost:8000/projects')
         .then((res) => {
@@ -47,6 +50,7 @@ const Projects = (props) => {
                     <th>
                         Description
                     </th>
+                  
                    
                     </tr>
                 </thead> 
@@ -63,6 +67,7 @@ const Projects = (props) => {
                             <td>Faker API generates fake person and company</td>     
                           
                             </tr>
+                            
                      
                     </tbody>        
             </table>  
@@ -81,9 +86,7 @@ const Projects = (props) => {
                     <th>
                         Description
                     </th>
-                    {/* <th>
-                        Like
-                    </th> */}
+                 
                     </tr>
                 </thead> 
                     <tbody>
@@ -97,7 +100,7 @@ const Projects = (props) => {
                                 controls={false}
                                 url="https://youtu.be/hKt9fC2jqsk"/></td>
                             <td>Axios pull 807 pokemons from Pokemon API</td>     
-                          
+                           
                            </tr>
                         
                     </tbody>        

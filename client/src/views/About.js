@@ -37,7 +37,7 @@ const About = (props) => {
                <p>I maybe a beginner, however, my passion in coding is an expert.</p>
                <p>I spent 1000 hours to learn full-stack of Python, Java and MERN.</p>
                <p>I like React.js and I'd like to explore and learn more and build better and cool applications.</p>
-               <p>Currently, I'm working on learning Gatsby and try to build social media application with React.</p>    
+               <p>Currently, I'm working on my blog and try to build social media application with React.</p>    
                    
                   
                    
