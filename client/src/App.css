@@ -26,6 +26,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 10px;
 }
 
 .projects {
@@ -52,8 +53,17 @@ table {
 
 
 h1 {
-  color: rgb(42, 61, 231);
+  color: rgb(69, 86, 243);
   text-align: center;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 30px;
+}
+
+h2 {
+  color: rgb(141, 5, 182);
+  font-family: 'Nova Flat', cursive;
+  font-size: 25px;
+ 
 }
 
 p {
@@ -80,9 +90,6 @@ a {
 
 }
 
-h2 {
-  color: rgb(141, 5, 182);
-}
 
 a {
   color: rgb(100, 163, 235);
@@ -117,3 +124,4 @@ a {
  color: rgb(219, 180, 238);
  font-weight: 600;
 }
+
