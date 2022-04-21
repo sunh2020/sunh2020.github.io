@@ -104,7 +104,69 @@ const Projects = (props) => {
                            </tr>
                         
                     </tbody>        
-            </table>  
+            </table> 
+            <table>
+               <thead>
+                   <tr>
+                    <th>
+                        Project Name
+                    </th>
+                    <th>
+                        Language 
+                    </th>
+                    <th>
+                        Demo
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                 
+                    </tr>
+                </thead> 
+                    <tbody>
+                        <tr>
+                        
+                            <td>Todo list</td>
+                            <td>React</td>
+                            <td>
+               
+                            </td>
+                            <td>Enter todo and delete todo</td>     
+                           
+                           </tr>
+                        
+                    </tbody>
+                   </table>
+                   <table> 
+                    <tbody>
+                        <tr>
+                        
+                            <td>Todo list</td>
+                            <td>React</td>
+                            <td></td>
+                            <td>Enter todo and delete todo</td>     
+                           
+                           </tr>
+                        
+                    </tbody>  
+                    <thead>
+                   <tr>
+                    <th>
+                        Project Name
+                    </th>
+                    <th>
+                        Language 
+                    </th>
+                    <th>
+                        Demo
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                 
+                    </tr>
+                </thead>    
+            </table>   
                    
                    
                    

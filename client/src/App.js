@@ -27,9 +27,9 @@ function App() {
     
       </Router>
       </nav>
-      
+          
       <span className="footer">
-        © 2021  Sunjuyuhwa Henderson
+        © 2022  Sunjuyuhwa Henderson
       </span>                                  
     </div>
   );

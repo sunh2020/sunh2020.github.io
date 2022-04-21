@@ -5,7 +5,9 @@ const Loading = (props) => {
     <div>
       <h2>Loading...</h2>
       <img
-        src="https://media.giphy.com/media/l0JMgio0LaBwQpBvO/giphy.gif"
+        src="https://i.gifer.com/L6MI.gif"
+        width="40%"
+        height="40%"
         alt="Loading"
       />
     </div>

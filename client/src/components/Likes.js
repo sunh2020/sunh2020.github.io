@@ -11,22 +11,22 @@
 //     console.log(likeCount);
 //   }
 
-// //   const numOfFireEmojis = Math.floor(likeCount / 10);
-// //   /**
-// //    * We need to take the numOfFireEmojis number and create an array out of it
-// //    * containing the HTML for displaying a fire emoji because react needs an
-// //    * array to loop over to display the repeated HTML elements.
-// //    *
-// //    * To create an array with N amount of items in it, I googled
-// //    * "javascript create array with N elements"
-// //    */
+//   // const numOfFireEmojis = Math.floor(likeCount / 10);
+//   /**
+//    * We need to take the numOfFireEmojis number and create an array out of it
+//    * containing the HTML for displaying a fire emoji because react needs an
+//    * array to loop over to display the repeated HTML elements.
+//    *
+//    * To create an array with N amount of items in it, I googled
+//    * "javascript create array with N elements"
+//    */
 
-// //   const fireEmojiElements = Array.from(
-// //     { length: numOfFireEmojis },
-// //     (_, index) => {
-// //       return <span>🔥</span>;
-// //     }
-// //   );
+//   // const fireEmojiElements = Array.from(
+//   //   { length: numOfFireEmojis },
+//   //   (_, index) => {
+//   //     return <span>🔥</span>;
+//   //   }
+//   // );
 
 //   return (
 //     <div className="profile text-center mr-5 border p-4 shadow rounded">
@@ -48,7 +48,7 @@
 //         </span>{" "}
 //         {likeCount}
 //       </h2>
-//       <p>{fireEmojiElements}</p>
+//       {/* <p>{fireEmojiElements}</p> */}
 //     </div>
 //   );
 // };
